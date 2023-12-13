@@ -1,0 +1,102 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foundation | Welcome</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foundation for Sites</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="off-canvas-wrapper">
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+      <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
+        <div class="row flex-column flex">
+          <br>
+          <img src="https://th.bing.com/th/id/R.acf54777c6b5eb1af7049ff400e87b61?rik=9uPSKq2CMiHoLw&pid=ImgRaw&r=0"
+            class="sm">
+          <ul class=>
+            <li><a class="button alert">page1</a></li>
+            <li><a class="button alert">page2</a></li>
+            <li><a class="button alert">page3</a></li>
+            <li><a class="button alert">page4</a></li>
+            <li><a class="button alert">page5</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="off-canvas-content" data-off-canvas-content>
+        <div class="title-bar hide-for-large">
+          <div class="title-bar-left">
+            <button class="menu-icon" type="button" data-open="my-info"></button>
+            <span class="title-bar-title">Mike Mikerson</span>
+          </div>
+        </div>
+        <div class="callout primary">
+          <div class="row column">
+            <h1>stastic</h1>
+            <form>
+              <label>voer data in array</label>
+              <input id="datas">
+              <button onclick="s()" class="button warning">submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="row small-up-2 medium-up-3 large-up-4">
+          <div class="column">
+            <canvas id="myPieChart"></canvas>
+            <h5>My Data</h5>
+          </div>
+          <div class="column">
+            <div class="sm-270">
+              <canvas id="myRadarChart" class="sm-270"></canvas>
+              <h5>My Data</h5>
+            </div>
+            <h5>My Data</h5>
+          </div>
+          <div class="column">
+            <div class="sm-270">
+              <canvas id="myLineChart"></canvas>
+              <h5>My Data</h5>
+            </div>
+          </div>
+          <div class="column">
+            <div class="sm-270">
+              <canvas id="myBarChart"></canvas>
+              <h5>My Data</h5>
+            </div>
+          </div>
+
+        </div>
+
+
+        
+      </div>
+    </div>
+  </div>
+  <div class="dot" style="height: 2px;width: 2px; background-color: red;"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/app.js"></script>
+  <script src="script.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+
+</html>

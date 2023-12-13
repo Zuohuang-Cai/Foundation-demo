@@ -1,0 +1,17 @@
+@keyframes fall {
+    0% {
+      opacity: 1;
+      transform: translate(0px,0px);
+      
+    }
+    100% {
+      opacity: 0;
+      transform: translate(0px,200px);
+      transform: translateY(100px) rotate(0deg);
+    }
+  }
+  
+  .fall {
+    animation: fall 3s ease-in-out;
+    
+  }
